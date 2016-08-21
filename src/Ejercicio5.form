@@ -172,6 +172,9 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JTextField" name="txtDesLey">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
           <Events>
             <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtDesLeyKeyTyped"/>
           </Events>
@@ -182,6 +185,9 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JTextField" name="txtSegSoc">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
           <Events>
             <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtSegSocKeyTyped"/>
           </Events>
@@ -192,6 +198,9 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JTextField" name="txtSegFor">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
           <Events>
             <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtSegForKeyTyped"/>
           </Events>
@@ -202,6 +211,9 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JTextField" name="txtDesCaj">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
           <Events>
             <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtDesCajKeyTyped"/>
           </Events>
@@ -228,6 +240,9 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JTextField" name="txtMontoTotal">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
           <Events>
             <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtMontoTotalKeyTyped"/>
           </Events>

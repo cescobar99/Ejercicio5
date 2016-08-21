@@ -103,6 +103,7 @@ public class Ejercicio5 extends javax.swing.JFrame {
         });
         jPanel1.add(txtSueldoBase, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 40, 260, -1));
 
+        txtDesLey.setEditable(false);
         txtDesLey.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtDesLeyKeyTyped(evt);
@@ -110,6 +111,7 @@ public class Ejercicio5 extends javax.swing.JFrame {
         });
         jPanel1.add(txtDesLey, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 80, 260, -1));
 
+        txtSegSoc.setEditable(false);
         txtSegSoc.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtSegSocKeyTyped(evt);
@@ -117,6 +119,7 @@ public class Ejercicio5 extends javax.swing.JFrame {
         });
         jPanel1.add(txtSegSoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 120, 260, -1));
 
+        txtSegFor.setEditable(false);
         txtSegFor.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtSegForKeyTyped(evt);
@@ -124,6 +127,7 @@ public class Ejercicio5 extends javax.swing.JFrame {
         });
         jPanel1.add(txtSegFor, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 160, 270, -1));
 
+        txtDesCaj.setEditable(false);
         txtDesCaj.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtDesCajKeyTyped(evt);
@@ -136,6 +140,7 @@ public class Ejercicio5 extends javax.swing.JFrame {
         jLabel7.setText("Monto A Pagar");
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
 
+        txtMontoTotal.setEditable(false);
         txtMontoTotal.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtMontoTotalKeyTyped(evt);
